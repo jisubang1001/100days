@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 100</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- PASSWORD SCREEN -->
+  <main id="lock-screen" class="screen lock-screen">
+    <div class="phone-card">
+      <h1>˖ ݁✦ HAPPY 100 ✦ ݁˖</h1>
+      <div id="dots" class="dots" aria-label="password dots">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <p id="message" class="message">Hint: MMDD</p>
+
+      <div class="keypad" aria-label="numeric keypad">
+        <button data-number="1">1</button>
+        <button data-number="2">2</button>
+        <button data-number="3">3</button>
+        <button data-number="4">4</button>
+        <button data-number="5">5</button>
+        <button data-number="6">6</button>
+        <button data-number="7">7</button>
+        <button data-number="8">8</button>
+        <button data-number="9">9</button>
+        <button id="clear" class="key-small">clear</button>
+        <button data-number="0">0</button>
+        <button id="delete" class="key-small">⌫</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- APP / HOMEPAGE -->
+  <main id="app" class="screen app hidden">
+    <nav class="top-nav">
+      <button id="lock-button" class="nav-button">Lock</button>
+    </nav>
+
+    <section id="home" class="page active">
+      <div class="hero">
+        <h1>jiSu Bun ❤︎⁠ IrIs Bun</h1>
+        <p class="subtitle">A tiny website for our 100 days together.</p>
+      </div>
+
+      <div class="icon-grid">
+        <button class="icon-card image-only-card" data-page="letter-page">
+          <img src="assets/letter.png" alt="Letter" />
+        </button>
+
+        <button class="icon-card image-only-card" data-page="pictures-page">
+          <img src="assets/camera.png" alt="Pictures" />
+        </button>
+
+        <button class="icon-card image-only-card" data-page="music-page">
+          <img src="assets/music.png" alt="Music" />
+        </button>
+      </div>
+    </section>
+
+    <!-- LETTER PAGE -->
+    <section id="letter-page" class="page">
+      <button class="back-button" data-page="home">← Back</button>
+      <div class="content-card letter-card">
+        <h1>A Letter to You</h1>
+        <p class="tiny-heart">♥</p>
+        <div class="letter-text">
+          <p>
+            Dear my beloved, my everything,
+          </p>
+          <p>
+            Happy 100 days!! I can’t believe it has only been 100 days. I feel like I have known you for so long. <br> <br>
+
+Thank you for living till now. I know it has been, and is still hard. But thank you for continuing to live everyday and I am so proud of you. You are strong, you are brave, and I believe in you. <br> <br>
+
+Sometimes, I still can’t believe that we are together. Me a year ago would have never imagined this. I think I have internalized some of the homophobia around me for the past few years, and I was scared that this was not something I should be doing. But after the past 100 days, I am more than certain that this is what I want. So thank you for making me realize this. <br> <br>
+
+You have given so much meaning to my life. I have never wanted to live last year, but now, the last thing I want is to die before having a life with you. Everyday, I think about the future we can build together every single moment. When I eat breakfast, I imagine me making brunch for you on the weekends. When I see a really nice house, I imagine us living there. When I sleep, I imagine the day we finally will be able to sleep together everyday. <br> <br>
+
+Sometimes, the distance is hard, and the fact that at least for a few years, we can’t see each other as much as before scares me. But the memories we have made makes me excited about the memories we are yet to make. And I am so grateful for the memories we have already made too. <br> <br>
+
+So please, don’t die. I'm so scared of this world without you. I don't know what I would do without you, and I don't want to imagine that. I don't think it is even possible for me to live without you. And, You haven’t tried living with me yet, and it is so sad if you die before you get to experience how happy that will be. Hang in there for a little more, I will come to you. I promise. I will try my best to go to you as soon as possible. I will protect you from this world. <br> <br>
+
+          </p>
+          <p>
+            Happy anniversary ♡
+          </p>
+          <p class="signature">— Bun Bang</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PICTURES PAGE -->
+    <section id="pictures-page" class="page">
+      <button class="back-button" data-page="home">← Back</button>
+
+      <div class="content-card memories-card">
+        <h1>Our Memories Together</h1>
+        <p class="tiny-heart">♥</p>
+
+        <div class="photo-grid scrapbook-collage">
+          <figure><img src="assets/photo1.jpg" alt="Memory 1" /></figure>
+          <figure><img src="assets/photo2.jpg" alt="Memory 2" /></figure>
+          <figure><img src="assets/photo3.jpg" alt="Memory 3" /></figure>
+          <figure><img src="assets/photo4.jpg" alt="Memory 4" /></figure>
+          <figure><img src="assets/photo5.jpg" alt="Memory 5" /></figure>
+          <figure><img src="assets/photo6.jpg" alt="Memory 6" /></figure>
+          <figure><img src="assets/photo7.jpg" alt="Memory 7" /></figure>
+          <figure><img src="assets/photo8.jpg" alt="Memory 8" /></figure>
+          <figure><img src="assets/photo9.jpg" alt="Memory 9" /></figure>
+          <figure><img src="assets/photo10.jpg" alt="Memory 10" /></figure>
+
+          <figure><img src="assets/photo11.jpg" alt="Memory 11" /></figure>
+          <figure><img src="assets/photo12.jpg" alt="Memory 12" /></figure>
+          <figure><img src="assets/photo13.jpg" alt="Memory 13" /></figure>
+          <figure><img src="assets/photo14.jpg" alt="Memory 14" /></figure>
+          <figure><img src="assets/photo15.jpg" alt="Memory 15" /></figure>
+          <figure><img src="assets/photo16.jpg" alt="Memory 16" /></figure>
+          <figure><img src="assets/photo17.jpg" alt="Memory 17" /></figure>
+          <figure><img src="assets/photo18.jpg" alt="Memory 18" /></figure>
+          <figure><img src="assets/photo19.jpg" alt="Memory 19" /></figure>
+          <figure><img src="assets/photo20.jpg" alt="Memory 20" /></figure>
+
+          <figure><img src="assets/photo21.jpg" alt="Memory 21" /></figure>
+          <figure><img src="assets/photo22.jpg" alt="Memory 22" /></figure>
+          <figure><img src="assets/photo23.jpg" alt="Memory 23" /></figure>
+          <figure><img src="assets/photo24.jpg" alt="Memory 24" /></figure>
+          <figure><img src="assets/photo25.jpg" alt="Memory 25" /></figure>
+          <figure><img src="assets/photo26.jpg" alt="Memory 26" /></figure>
+          <figure><img src="assets/photo27.jpg" alt="Memory 27" /></figure>
+          <figure><img src="assets/photo28.jpg" alt="Memory 28" /></figure>
+          <figure><img src="assets/photo29.jpg" alt="Memory 29" /></figure>
+          <figure><img src="assets/photo30.jpg" alt="Memory 30" /></figure>
+
+          <figure><img src="assets/photo31.jpg" alt="Memory 31" /></figure>
+          <figure><img src="assets/photo32.jpg" alt="Memory 32" /></figure>
+          <figure><img src="assets/photo33.jpg" alt="Memory 33" /></figure>
+          <figure><img src="assets/photo34.jpg" alt="Memory 34" /></figure>
+          <figure><img src="assets/photo35.jpg" alt="Memory 35" /></figure>
+          <figure><img src="assets/photo36.jpg" alt="Memory 36" /></figure>
+          <figure><img src="assets/photo37.jpg" alt="Memory 37" /></figure>
+          <figure><img src="assets/photo38.jpg" alt="Memory 38" /></figure>
+          <figure><img src="assets/photo39.jpg" alt="Memory 39" /></figure>
+          <figure><img src="assets/photo40.jpg" alt="Memory 40" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- MUSIC PAGE -->
+    <section id="music-page" class="page">
+      <button class="back-button" data-page="home">← Back</button>
+
+      <div class="content-card music-card">
+        <h1>Songs that remind me of you</h1>
+        <p class="tiny-heart">♥</p>
+
+        <div class="spotify-grid">
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6QXgEZ5MBal60H0VDZGZHk?utm_source=generator&si=53265b25a691424c" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1MaQMMOR80DNUWVBM7L9fz?utm_source=generator&si=4d92c1cc608e4a09" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3TFCPkwhrH1E47OoJuN4hP?utm_source=generator&si=547cdcf46b3f4c0f" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/14jJTfIWSHjqkDQYqaDS2O?utm_source=generator&si=50ae5fa9124041b6" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1jXfVzMk8cSbvAXMML4Y4f?utm_source=generator&si=cd98e6c954404e7e" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7JIuqL4ZqkpfGKQhYlrirs?utm_source=generator&si=eaf34084c1114fd9" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0E4Y1XIbs8GrAT1YqVy6dq?utm_source=generator&si=f86bd3c2cb9a4aba" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6vSwxzO2Qf4BinHSXRwZJe?utm_source=generator&si=ce3537d753364e31" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6G9YlbU3ByPJQvOFDRdwyM?utm_source=generator&si=c696359cb8444108" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5mtTAScDytxMMqZj14NmlN?utm_source=generator&si=336acbfa1bc54f6b" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/07PoEUxnoQBW49Xa7vwcR2?utm_source=generator&si=7663024835bb42af" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7MiWqkriAg3HsLr8L8OvdN?utm_source=generator&si=05b24397a1474fa1" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5FgPwJ7Nh2FVmIXviKl2VF?utm_source=generator&si=7e12ac86db384fed" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1aEsTgCsv8nOjEgyEoRCpS?utm_source=generator&si=4966c38cae9a4967" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2tmX4T7ODY34NwvQ3DD3MC?utm_source=generator&si=7afe6f9e80b64745" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1sd2HaV5RYWN8ly7htaElN?utm_source=generator&si=06f1a73c9968458e" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3XjAgiBvWBKu1tHSLTgffX?utm_source=generator&si=2a69a3d573724b58" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7cCscSBdKzNWalP42xkNUM?utm_source=generator&si=523be69c3823481e" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0jYN8yREKgmXjKkVBfB198?utm_source=generator&si=ab0db450fb2a41a6" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4VywXu6umkIQ2OS0m1I79y?utm_source=generator&si=1098c30651f845c6" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/09x9v1o51dbqi5H0u7UGfp?utm_source=generator&si=78be1e49f920452f" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0pYacDCZuRhcrwGUA5nTBe?utm_source=generator&si=656f6c1459ea40d1" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0tCr7DoUBSdtdSl0rxZmct?utm_source=generator&si=4fbad9da7e124862" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2m6Ko3CY1qXNNja8AlugNc?utm_source=generator&si=8faed0e7b7d24b9a" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+          <a href="https://open.spotify.com/playlist/7ANulER93OAh3nuy3dSWHT?si=3fea67a8f9f643d5" class="music-subtitle" target="_blank" rel="noopener noreferrer">View on Spotify</a>
+
+        </div>
+
+      </div>
+    </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
